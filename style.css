@@ -1,0 +1,278 @@
+
+body{
+    background-image: url("./page-bg.jpg");
+    background-repeat: repeat-y;
+    min-width: 100%;
+
+}
+.main-container{
+    color:white;
+    width: 85%;
+    display:flex;
+}
+
+.aside{
+    width:260px;
+    height: 100vh;
+    background-color: brown;
+    margin-left:5%;
+    position: fixed;
+}
+.aside img{
+    border-radius: 50%;
+    margin-left:16%;
+    margin-top:20%;
+}
+.main-container .aside span{
+    text-align: center;
+    display: block;
+    /* /* justify-content: center; */
+    align-items: center; 
+
+
+}
+.aside-text{
+    margin-top:10%;
+}
+.aside-text a{
+    padding:10px;
+    display: grid;
+    gap:10px;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.aside-text a:hover{
+    background-color: white;
+    color:brown;
+}
+.aside-icons .icon{
+    margin-top:20%;
+    /* position: relative; */
+    margin-left:9%;
+    background-color: white;
+    color:brown;
+    
+}
+.aside-icons .icon:hover{
+    background-color: rgb(84, 89, 89);
+    color:white;
+
+}
+
+.aside-footer1{
+    margin-top:20%;
+    text-align: center;
+}
+.aside-footer2{
+    /* margin-top:20px; */
+    text-align: center;
+}
+.hr-line{
+    width: 98%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.section-heading h1{
+    /* text-align: center; */
+    color:white;
+    /* margin-bottom:5px; */
+    text-align: center;
+}
+
+.section-heading .top-head{
+    text-align: center;
+    color:white;
+    
+}
+
+.line-dec1{
+    height:2px;
+    width:2%;
+    background-color: brown;
+    margin-left:49%;
+}
+
+.row1, .row2{
+    display: grid;
+    grid-template-areas: 'a a';
+}
+.row2{
+    margin-left:12%;
+}
+ .leftimage img{
+    width:70%;
+    height:70%;
+    margin-left:18%;
+    margin-top: 13%;
+}
+.right-text{
+    /* margin-left:2rem; */
+    /* position: relative; */
+    /* padding:10%; */
+    margin-top: 4.5rem;
+}
+.rightimage img{
+    width:80%;
+    height:70%;
+    margin-left:10%;
+    margin-bottom:13%;
+}
+.left-text{
+    /* margin-right: 0rem; */
+    /* margin-left:5%; */
+    /* position: relative; */
+    /* padding:3rem; */
+    margin-bottom: 10%;
+}
+
+.white-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color:brown;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.white-button a:hover {
+    background-color:rgb(204, 221, 226);
+}
+.line-dec2{
+    height:2px;
+    width:3%;
+    background-color:brown;
+    margin: 10px 0;
+    margin-left:45%;
+}
+.line-dec3{
+    height:2px;
+    width:3%;
+    background-color:brown;
+    margin-left:48%;
+}
+
+.service-section{ 
+    margin:10%;
+    /* margin-top: 20%; */
+    font-size: medium;
+    display: flex;
+    font-weight: 100;
+    
+}
+
+.box{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap:10px;
+   background-color: transparent;
+   margin-top:8%;
+    
+}
+.items{
+    border:1px solid;
+    width:350px;
+    height:35vh;
+    /* padding:1rem; */
+    /* padding: 20px; */
+    color:white;
+    opacity:0.75;
+  
+}
+.section-heading1 h1{
+    /* text-align: center; */
+    color:white;
+    margin-bottom:2%;
+    text-align: center;
+}
+.section-heading1 p{
+    text-align: center;
+    color:white;
+    
+}
+
+.section-heading2 h1{
+    color:white;
+    margin-top:5%;
+    text-align: center;
+}
+.section-heading2 p{
+    text-align: center;
+    color:white;
+    
+}
+.work-section .container3 .section-heading2{
+    margin-top: 20%;
+}
+.work-section .container3 .list a{
+    /* width:360px; */
+    /* margin-left: 10%; */
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 0.25rem;
+    
+    
+}
+.list{
+    text-align: center;
+}
+
+.image-boxes{
+    display: grid;
+    margin-left:3%;
+    justify-content: space-around;
+}
+img{ 
+    padding:1rem;
+    
+}
+.footer{
+    text-align: center;
+    color:white;
+    margin: top 4rem;
+
+}
+.Details  input{
+    display: inline-block;
+    width:34%;
+    height:40px;
+    background-color: transparent;
+    opacity:0.55;
+    color: white;  
+    gap:5%;    
+}
+.subject input{
+    width: 69%;
+    display: inline;
+    gap:1rem;
+}
+.message input{
+    width: 69%;
+    height:20vh;
+    display: inline;
+    justify-content: space-around;
+}
+.totalpage{
+    margin-left: 30%;
+    
+}
+/* @media screen and (min-width: 600px) and (max-width: 1090px) {
+}
+       
+    
+@media screen and (min-width:325px) and (max-width:550px) {
+
+   
+
+} */
+
+
+
